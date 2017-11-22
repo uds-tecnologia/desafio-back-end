@@ -1,6 +1,6 @@
 # Teste para candidatos à vaga de backend
 
-> [![Logo UDS]()](https://www.uds.com.br)
+> [![Logo UDS](https://raw.githubusercontent.com/uds-tecnologia/teste-programador-back-end/master/logo%20uds%20azul%20escuro.png)](https://www.uds.com.br)
 >
 > Esse teste é público. Candidatos para o teste devem implementar a aplicação solicitada e criar uma issue com um link para um repositório com a solução do mesmo.
 
