@@ -56,7 +56,7 @@ A interface de uso fica a critério do desenvolvedor. Será um grande diferencia
 - O front só será avaliado segundo o código Javascript. Não se preocupe com o HTML/CSS.
 
 ## Como vamos avaliar:
-- Vamos subir a aplicação e acessar via localhost:<alguma-porta>. Vamos listar/cadastrar/editar/deletar algumas entidades. Vamos listar os veículos segundo diferentes combinações de filtros. Vamos analisar as chamadas da api feitas durante essa utilização.
+- Vamos subir a aplicação e acessar via localhost:porta. Vamos listar/cadastrar/editar/deletar algumas entidades. Vamos listar os veículos segundo diferentes combinações de filtros. Vamos analisar as chamadas da api feitas durante essa utilização.
 - Vamos ler o código, e validar todos os conceitos de Clean Code, e Object Calisthenics.
 - Vamos analisar os testes e o relatório de cobertura da aplicação.
 - Vamos validar todas as classes de acordo com SOLID e KISS.
