@@ -65,7 +65,7 @@ A interface de uso fica a critério do desenvolvedor. A UI/UX da aplicação nã
 - Hierarquia clara entre componentes.
 - Arquitetura que favorece a escalabilidade do sistema.
 
-## Diferencias:
+## Diferenciais:
 - Criar ambiente de desenvolvimento em Docker, utilizando compose.
 - Testes claros e objetivos construidos sobre Baby Steps.
 - Códigos escritos para compreeção de humanos.
