@@ -35,7 +35,7 @@ Criar uma aplicação web que implemente um CRUD de pessoa. Uma pessoa é um for
 
 A aplicação é apenas um CRUD sem usuários (não existe autenticação). Deve ser possível:
 - Listar, inserir, editar e deletar um fornecedor e um cliente;
-- Associar n endereços aos mesmo;
+- Associar n endereços aos mesmos;
 - Pesquisar os clientes e fornecedores disponíveis com a possibilidade de filtrar por quaisquer características ou combinação de características disponíveis.
 
 A interface de uso fica a critério do desenvolvedor. Será um grande diferencial se for desenvolvido em Angular 4, ou VueJS com o framework Vuetify.
