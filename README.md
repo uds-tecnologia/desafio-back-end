@@ -66,6 +66,7 @@ A interface de uso fica a critério do desenvolvedor. Será um grande diferencia
 - Arquitetura que favorece a escalabilidade do sistema.
 
 ## Diferenciais:
+- Boas práticas em Git e GitFlow.
 - Criar ambiente de desenvolvimento em Docker, utilizando compose.
 - Testes claros e objetivos construidos sobre Baby Steps.
 - Códigos escritos para compreensão de humanos.
