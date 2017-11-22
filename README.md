@@ -38,7 +38,7 @@ A aplicação é apenas um CRUD sem usuários (não existe autenticação). Deve
 - Associar n endereços aos mesmo;
 - Pesquisar os clientes e fornecedores disponíveis com a possibilidade de filtrar por quaisquer características ou combinação de características disponíveis.
 
-A interface de uso fica a critério do desenvolvedor. A UI/UX da aplicação não será avaliada.
+A interface de uso fica a critério do desenvolvedor. Será um grande diferencial se for desenvolvido em Angular 4, ou VueJS com o framework Vuetify.
 
 ## Requisitos:
 - A aplicação deve comportar-se como uma REST FULL Api ou GraphQL. É um diferencial positivo se a aplicação for uma SPA (single-page application). Outro diferencial bastante positivo é o frontend ser desenvolvido em Angular 4 ou VueJS.
