@@ -68,5 +68,5 @@ A interface de uso fica a critério do desenvolvedor. Será um grande diferencia
 ## Diferenciais:
 - Criar ambiente de desenvolvimento em Docker, utilizando compose.
 - Testes claros e objetivos construidos sobre Baby Steps.
-- Códigos escritos para compreeção de humanos.
+- Códigos escritos para compreensão de humanos.
 
