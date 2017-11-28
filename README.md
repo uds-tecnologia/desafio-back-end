@@ -8,53 +8,53 @@
 Criar uma api REST, que implemente os sequintes casos de uso:
 
 ### Produtos:
-**CRUD da entidade Produto:**
-- Id: UUID
-- Código: String
-- Nome: String
-- Preço Unitário: Double
+> **CRUD da entidade Produto:**
+> - Id: UUID
+> - Código: String
+> - Nome: String
+> - Preço Unitário: Double
 
-**Critérios de aceitação:**
-- Todos os atributos são obrigatórios.
-- ID, Código e Nome não podem se repetir.
-- Preço é monetário e deve ser maior que zero.
-- Deve ser possível pesquisar os produtos por qualquer atributo, exceto pelo id.
+> **Critérios de aceitação:**
+> - Todos os atributos são obrigatórios.
+> - ID, Código e Nome não podem se repetir.
+> - Preço é monetário e deve ser maior que zero.
+> - Deve ser possível pesquisar os produtos por qualquer atributo, exceto pelo id.
 
 ### Pessoa:
-**CRUD da entidade Pessoa:**
-- Id: UUID
-- Nome: String
-- CPF: String
-- Data Nascimento: Date
+> **CRUD da entidade Pessoa:**
+> - Id: UUID
+> - Nome: String
+> - CPF: String
+> - Data Nascimento: Date
 
-**Critérios de aceitação:**
-- Todos os atributos são obrigatórios.
-- ID e Nome não podem se repetir.
-- CPF deve ser válido.
-- Deve ser possível pesquisar as pessoas por qualquer atributo, exceto pelo id.
+> **Critérios de aceitação:**
+> - Todos os atributos são obrigatórios.
+> - ID e Nome não podem se repetir.
+> - CPF deve ser válido.
+> - Deve ser possível pesquisar as pessoas por qualquer atributo, exceto pelo id.
 
 ### Pedido de Venda:
-**Permite incluir ou excluir um pedido de venda, sabendo que o Pedido:**
-- Id: UUID
-- Cliente: Pessoa
-- Número: Integer/Autoincremento
-- Emissão: Date,
-- Total: Double
+> **Permite incluir ou excluir um pedido de venda, sabendo que o Pedido:**
+> - Id: UUID
+> - Cliente: Pessoa
+> - Número: Integer/Autoincremento
+> - Emissão: Date,
+> - Total: Double
 
-**Um pedido por ter um ou mais ItemPedido:**
-- Id: UUID
-- Produto: Produto
-- Quantidade: Double
-- Preço Unitário: Double - Recuperado do produto
-- Percentual de Desconto: Double
-- Total: Double
+> **Um pedido por ter um ou mais ItemPedido:**
+> - Id: UUID
+> - Produto: Produto
+> - Quantidade: Double
+> - Preço Unitário: Double - Recuperado do produto
+> - Percentual de Desconto: Double
+> - Total: Double
 
-**Critérios de aceitação:**
-- Todos os atributos são obrigatórios.
-- ID e Número não podem se repetir.
-- Todos os valores numéricos devem ser maior que zero, exceto Percentual de Desconto que pode ser maior ou igual a zero.
-- Preço e Totais são monetários.
-- Deve ser possível pesquisar os pedidos por qualquer atributo, exceto pelo id.
+> **Critérios de aceitação:**
+> - Todos os atributos são obrigatórios.
+> - ID e Número não podem se repetir.
+> - Todos os valores numéricos devem ser maior que zero, exceto Percentual de Desconto que pode ser maior ou igual a zero.
+> - Preço e Totais são monetários.
+> - Deve ser possível pesquisar os pedidos por qualquer atributo, exceto pelo id.
 
 Não existe cadastro de usuários e/ou autenticação.
 
@@ -67,9 +67,9 @@ Não existe cadastro de usuários e/ou autenticação.
 - A aplicação deve possuir um script que popula o banco inicialmente com produtos, pessoas e pedidos fictícios para demonstração.
 
 ## Critérios de avaliação:
-- Modelagem do banco de dados. Você tem toda a liberdade de criar quantas tabelas ou campos achar necessários.
-- Organização do código: desacoplamento e legibilidade contam.
 - Automatização de tarefas.
+- Modelagem do banco de dados e das migrations.
+- Organização do código: desacoplamento e legibilidade contam.
 - Flexibilidade do sistema para adição/remoção de funcionalidades.
 
 ## Como vamos avaliar:
@@ -78,12 +78,9 @@ Não existe cadastro de usuários e/ou autenticação.
 - Vamos validar todas as classes de acordo com SOLID e KISS.
 
 ## O que nós gostamos:
+- Boas práticas em Git e GitFlow.
 - Hierarquia clara entre componentes.
 - Arquitetura que favorece a escalabilidade do sistema.
-
-## Diferenciais:
-- Boas práticas em Git e GitFlow.
-- Criar ambiente de desenvolvimento em Docker, utilizando compose.
 - Testes claros e objetivos construidos sobre Baby Steps.
-- Códigos escritos para compreensão de humanos.
-
+- Ambientes de desenvolvimento em Docker, utilizando compose.
+- Códigos escritos para humanos.
